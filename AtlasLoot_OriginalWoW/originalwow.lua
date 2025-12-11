@@ -10542,17 +10542,39 @@ AtlasLoot_Data["Hydraxian"] = {
 	Module = "AtlasLoot_OriginalWoW",
 	Name = BabbleFaction["Hydraxian Waterlords"],
 	{
-		Name = BabbleFaction["Hydraxian Waterlords"],
+		Name = BabbleFaction["Honored"],
 		WebID = {749,"faction"},
 		{
-			{ icon = "Spell_Frost_SummonWaterElemental_2", name = color.WHITE..BabbleFaction["Honored"] },
-			{ itemID = 18399}, --Ocean's Breeze 
-			{ itemID = 18398}, --Tidal Loop 
-			{ itemID = 17333}, --Aqual Quintessence
+			{ itemID = 277936 }, -- Hound Scale Cloak
+			{ itemID = 277937 }, -- Hydro-Pendant
+			{ itemID = 277938 }, -- Firelord Cuff
 		},
+	},
+	{
+		Name = BabbleFaction["Revered"],
+		WebID = {749,"faction"},
 		{
-			{ icon = "Spell_Frost_SummonWaterElemental_2", name = color.WHITE..BabbleFaction["Revered"] },
-			{ itemID = 22754}, --Eternal Quintessence
+			{ itemID = 277939 }, -- Etched Sapphire Ring
+			{ itemID = 277940 }, -- Etched Emerald Ring
+			{ itemID = 277941 }, -- Etched Amethyst Ring
+			{ itemID = 277942 }, -- Etched Ruby Ring
+		},
+	},
+	{
+		Name = BabbleFaction["Exalted"],
+		WebID = {749,"faction"},
+		{
+			{ itemID = 22754 }, -- Eternal Quintessence
+			{ itemID = 277927 }, -- Hydrothermal Pauldrons
+			{ itemID = 277928 }, -- Dark Iron Greathelm
+			{ itemID = 277929 }, -- Lavacast Greaves
+			{ itemID = 277930 }, -- Thermal Gauntlets
+			{ itemID = 277931 }, -- Serpentine Cord
+			{ itemID = 277932 }, -- Hydraxian Pearl
+			{ itemID = 277933 }, -- Flamewaker Sash
+			{ itemID = 277934 }, -- Magus Spaulders
+			{ itemID = 277935 }, -- Tide-stitched Vest
+			{ itemID = 277986 }, -- Shimmering Coastline Crystal		},
 		},
 	},
 }
