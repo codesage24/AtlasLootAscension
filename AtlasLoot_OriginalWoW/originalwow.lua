@@ -6425,6 +6425,29 @@ AtlasLoot_Data["Onyxia60"] = {
 	Type = "ClassicRaid",
 	Map = "Onyxia60",
 	{
+		Name = "Basalthane",
+		{
+			{ itemID = 18549 }, --Molten Visor
+			{ itemID = 18124 }, --Basalt Pauldrons
+			{ itemID = 18107 }, --Ashen Drape
+			{ itemID = 18087 }, --Fissured Warplate
+			{ itemID = 18108 }, --Ash Stitched Gauntlets
+			{ itemID = 18112}, --Eruption Cord
+			gap,
+			{ itemID = 18109 }, --Obsidian Signet
+			{ itemID = 15717 }, --Drakon Soul Shard
+			{ itemID = 18548 }, --Wyrmguard Talisman
+		},
+		{
+			{ itemID = 18126 }, --Infernos, the Extinguished
+			{ itemID = 18110 }, --Obsidian Emberlance
+			{ itemID = 18571 }, --Living Lavastone Conduit
+			{ itemID = 18125 }, --Emberthorn
+			{ itemID = 18086 }, --Dreadshot
+			{ itemID = 18572 }, --Corelit Igneous
+		}
+	},
+	{
 		Name = BabbleZone["Onyxia's Lair"],
 		WebID = {10184,"npc"},
 		{
