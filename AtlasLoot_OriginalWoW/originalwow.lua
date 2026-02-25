@@ -545,7 +545,7 @@ AtlasLoot_Data["TempleofAQ"] = {
 			{ itemID = 21891 }, --Shard of the Fallen Star
 			{ itemID = 21856 }, --Neretzek, The Blood Drinker
 			{ itemID = 21837 }, --Anubisath Warhammer
-		gap,
+			gap,
 			{ itemID = 22202 }, --Small Obsidian Shard
 			{ itemID = 22203 }, --Large Obsidian Shard
 		},
@@ -581,9 +581,9 @@ AtlasLoot_Data["TempleofAQ"] = {
 			{ itemID = 20877 }, --Idol of the Sage
 			{ itemID = 20874 }, --Idol of the Sun
 			{ itemID = 20882 }, --Idol of War
-		gap,
+			gap,
 			{ itemID = 21230 }, --Ancient Qiraji Artifact
-		gap,
+			gap,
 			{ itemID = 21762 }, --Greater Scarab Coffer Key
 		},
 		{
@@ -1614,7 +1614,7 @@ AtlasLoot_Data["UpperBlackrock"] = {
 			{ itemID = 12927 }, --TruestrikeShoulders
 			{ itemID = 12929 }, --Emberfury Talisman
 			{ itemID = 12926 }, --Flaming Band
-		gap,
+			gap,
 			{ itemID = 17322 }, --Eye of the Emberseer
 			{ itemID = 21988 }, --Ember of Emberseer
 		},
@@ -1629,7 +1629,7 @@ AtlasLoot_Data["UpperBlackrock"] = {
 			{ itemID = 12589 }, --Dustfeather Sash
 			{ itemID = 12603 }, --Nightbrace Tunic
 			{ itemID = 12606 }, --Crystallized Girdle
-		gap,
+			gap,
 			{ itemID = 18657 }, --Schematic: Hyper-Radiant Flame Reflector
 			{ itemID = 18638 }, --Hyper-Radiant Flame Reflector
 		},
@@ -1727,12 +1727,12 @@ AtlasLoot_Data["UpperBlackrock"] = {
 			{ itemID = 12945 }, --Legplates of the Chromatic Defier
 			{ itemID = 12903 }, --Legguards of the Chromatic Defier
 			{ itemID = 12895 }, --Breastplate of the Chromatic Flight
-		gap,
+			gap,
 			{ itemID = 22225 }, --Dragonskin Cowl
 			{ itemID = 12960 }, --Tribal War Feathers
 			{ itemID = 12953 }, --Dragoneye Coif
 			{ itemID = 12952 }, --Gyth's Skull
-		gap,
+			gap,
 			{ itemID = 13522 }, --Recipe: Flask of Chromatic Resistance
 		},
 		{
@@ -1875,7 +1875,7 @@ AtlasLoot_Data["MoltenCore"] = {
 		},
 		{
 			{ itemID = 2522364, lootTable = {"T1HAND","Token"} }, --Molten Girdle
-		gap,
+			gap,
 			{ itemID = 17331 }, --Hand of Gehennas
 		},
 	},
@@ -11041,89 +11041,154 @@ AtlasLoot_Data["WorldBossesCLASSIC"] = {
 	Name = AL["World Bosses"],
 	Type = "ClassicRaid",
 	{
-		Name = "Weapons/Trinkets",
+		Name = "Atal'zul, the Soulreaver",
 		{
-			{ itemID = 20581 }, --Staff of Rampant Growth
-			{ itemID = 17070 }, --Fang of the Mystics
-			{ itemID = 19130 }, --Cold Snap
-			{ itemID = 17113 }, --Amberseal Keeper
-			{ itemID = 20636 }, --Hibernation Crystal
-			{ itemID = 20582 }, --Trance Stone
-			{ itemID = 18665 }, --The Eye of Shadow
-			{ itemID = 18704 }, --Mature color.BLUE Dragon Sinew
-			{ itemID = 18714 }, --Ancient Sinew Wrapped Lamina
-		},
-		{
-			{ itemID = 20580 }, --Hammer of Bestial Fury
-			{ itemID = 20599 }, --Polished Ironwood Crossbow
-			{ itemID = 18202 }, --Eskhandar's Left Claw
-			{ itemID = 20577 }, --Nightmare Blade
-			{ itemID = 20578 }, --Emerald Dragonfang
-			{ itemID = 17112 }, --Empyrean Demolisher
-			{ itemID = 18542 }, --Typhoon
-			{ itemID = 20644 }, --Nightmare Engulfed Object
-			{ itemID = 20600 }, --Malfurion's Signet Ring
-		},
+			{ itemID = 11429 }, -- Desecrator
+			{ itemID = 11428 }, -- Skullcrusher
+			{ itemID = 11427 }, -- Soulrender Rifle
+			gap,
+			{ itemID = 11425 }, -- Band of the Dead
+			{ itemID = 11426 }, -- Shroud of Sacrifice
+			{ itemID = 11330 }, -- Signet of the Soulflayer
+			{ itemID = 11430 }, -- Soul Essence Vial
+			{ itemID = 11329 }, -- Talisman of Soul Theft
+		}
 	},
 	{
-		Name = "Physical Gear",
+		Name = "Azuregos",
 		{
-			{ itemID = 20623 }, --Circlet of Restless Dreams
-			{ itemID = 20615 }, --Dragonspur Wraps
-			{ itemID = 122884 }, --Wristguards of the Shifting Sands
-			{ itemID = 122885 }, --Waistguard of the Shifting Sands
-			{ itemID = 18544 }, --Doomhide Gauntlets
-			{ itemID = 20627 }, --Dark Heart Pants
-			{ itemID = 20633 }, --Unnatural Leather Spaulders
-			{ itemID = 20617 }, --Ancient Corroded Leggings
-		},
-		{
-			{ itemID = 20624 }, --Ring of the Unliving
-			{ itemID = 20622 }, --Dragonheart Necklace
-			{ itemID = 18541 }, --Puissant Cape
-			{ itemID = 18204 }, --Eskhandar's Pelt
-		},
+			{ itemID = 16088 }, -- Fang of the Mystics
+			{ itemID = 19130 }, -- Cold Snap
+			{ itemID = 18542 }, -- Typhoon
+			{ itemID = 18202 }, -- Eskhandar's Left Claw
+			gap,
+			{ itemID = 18547 }, -- Unmelting Ice Girdle
+			{ itemID = 18541 }, -- Puissant Cape
+			{ itemID = 18545 }, -- Leggings  of Arcane Supremacy
+			{ itemID = 19131 }, -- Snowblind Shoes
+			{ itemID = 19132 }, -- Crystal Adorned Crown
+			{ itemID = 18208 }, -- Drape of Benediction
+		}
 	},
 	{
-		Name = "Caster Gear",
+		Name = "Lord Kazzak",
 		{
-			{itemID = 19132 }, --Crystal Adorned Crown
-			{ itemID = 18546 }, --Infernal Headcage
-			{ itemID = 20628 }, --Deviate Growth Cap
-			{ itemID = 18545 }, --Leggings of Arcane Supremacy
-			{ itemID = 19133 }, --Fel Infused Leggings
-			{ itemID = 20638 }, --Leggings of the Demented Mind
-			{ itemID = 20639 }, --Strangely Glyphed Legplates
-			{ itemID = 19131 }, --Snowblind Shoes
-			{ itemID = 20631 }, --Mendicant's Slippers
-			{ itemID = 20634 }, --Boots of Fright
-			{ itemID = 20621 }, --Boots of the Endless Moor
-			{ itemID = 20629 }, --Malignant Footguards
-		},
-		{
-			{ itemID = 20630 }, --Gauntlets of the Shining Light
-			{ itemID = 20618 }, --Gloves of Delusional Power
-			{ itemID = 20635 }, --Jade Inlaid Vestments
-			{ itemID = 19135 }, --Blacklight Bracer
-			{ itemID = 122886 }, --Bracers of the Sand Prince
-			{ itemID = 20626 }, --Black Bark Wristbands
-			{ itemID = 122887 }, --Belt of the Sand Prince
-			{ itemID = 19134 }, --Flayed Doomguard Belt
-			{ itemID = 20625 }, --Belt of the Dark Bog
-			{ itemID = 20579 }, --Green Dragonskin Cloak
-			{ itemID = 18208 }, --Drape of Benediction
-			{ itemID = 20632 }, --Mindtear Band
-			{ itemID = 18543 }, --Ring of Entropy
-		},
+			{ itemID = 17113 }, -- Amberseal Keeper
+			{ itemID = 17112 }, -- Empyrean Demolisher
+			gap,
+			{ itemID = 16258 }, --Eskhander's Pelt
+			{ itemID = 18544 }, -- Doomhide Guantlets
+			{ itemID = 19133 }, -- Fel Infused Leggings
+			{ itemID = 18546 }, -- Infernal Headcage
+			{ itemID = 16089 }, -- Blazefury Medallion
+			{ itemID = 19134 }, -- Flayed Doomguard Belt
+			{ itemID = 19135 }, -- Blackflight Bracer
+			{ itemID = 18543 }, -- Ring of Entropy
+		}
 	},
 	{
-		Name = "Tank Gear",
+		Name = "Setis",
 		{
-			{ itemID = 18547 }, --Unmelting Ice Girdle
-			{ itemID = 20616 }, --Dragonbone Wristguards
-			{ itemID = 20619 }, --Acid Inscribed Greaves
-			{ itemID = 20637 }, --Acid Inscribed Pauldrons
-		},
+			{ itemID = 17366 }, -- Amulet of the Sand Prince
+			{ itemID = 17358 }, -- Belt of the Sand Prince
+			{ itemID = 17357 }, -- Bracers of the Sand Prince
+			gap,
+			{ itemID = 17365 }, -- Amulet of the Gate Warden
+			{ itemID = 122883 }, -- Musket of the Gate Warden
+			{ itemID = 17243 }, -- Scepter of the Gate Warden
+			{ itemID = 17244 }, -- Staff of the Gate Warden
+			gap,
+			{ itemID = 17367 }, -- Insignia of the Shifting Sands
+			{ itemID = 17356 }, -- Waistguard of the Shifting Sands
+			{ itemID = 17334 }, -- Wristguards of the Shifting Sands
+		}
+	},
+	{
+		Name = "Snowgrave",
+		{
+			{ itemID = 17665 }, -- Glacierborn Greatsword
+			{ itemID = 18085 }, -- Frostbite Spellhammer
+			{ itemID = 17663 }, -- Frostbound Bulwark
+			{ itemID = 17664 }, -- Glaciermind Spellfocus
+			gap,
+			{ itemID = 17912 }, -- Glacierwoven Legwraps
+			{ itemID = 18064 }, -- Band of Winter's Grasp
+			{ itemID = 17913 }, -- Frostbite Warcloak
+			{ itemID = 18065 }, -- Frostwoven Spiritbinder Gloves
+			{ itemID = 18084 }, -- Glacierbound Wristguards
+			{ itemID = 17304 }, -- Crystalized Water Spike
+		}
+	},
+	{
+		Name = "The Will of Soggoth",
+		{
+			{ itemID = 11271 }, -- Eles'finel
+			{ itemID = 11326 }, -- The Dreaming Eternity
+			{ itemID = 11277 }, -- Thorn of Aydreath
+			gap,
+			{ itemID = 11274 }, -- Breastplate of the Void's Fury
+			{ itemID = 11328 }, -- Guidance of the Old Gods
+			{ itemID = 11327 }, -- Shroud of Soothing Twilight
+			{ itemID = 11275 }, -- The Darkened Gaze
+			{ itemID = 11431 }, -- The Deceiving Refraction
+			{ itemID = 11276 }, -- Treads of Twilight Shadow
+			{ itemID = 11272 }, -- Twilight Faceguard
+			{ itemID = 11273 }, -- Visage of Aydreath
+		}
+	},
+	{
+		Name = "Emeriss",
+		{
+			{ itemID = 17424 }, -- Polished Ironwood Crossbow
+			gap,
+			{ itemID = 17484 }, -- Boots of the Endless Moor
+			{ itemID = 17486 }, -- Circlet of Restless Dreams
+			{ itemID = 17485 }, -- Dragonheart Necklace
+			{ itemID = 17487 }, -- Ring of the Unliving
+		}
+	},
+	{
+		Name = "Lethon",
+		{
+			{ itemID = 17488 }, -- Belt of the Dark Bog
+			{ itemID = 17489 }, -- Black Bark Wristbands
+			{ itemID = 17490 }, -- Dark Heart Pants
+			{ itemID = 17510 }, -- Deviate Growth Cap
+			{ itemID = 17512 }, -- Gauntlets of the Shining Light
+			{ itemID = 17511 }, -- Malignant Footguards
+		}
+	},
+	{
+		Name = "Taerar",
+		{
+			{ itemID = 17368 }, -- Nightmare Blade
+			gap,
+			{ itemID = 17525 }, -- Boots of Fright
+			{ itemID = 17513 }, -- Mendicant's Slippers
+			{ itemID = 17514 }, -- Mindtear Band
+			{ itemID = 17524 }, -- Unnatural Leather Spaulders
+		}
+	},
+	{
+		Name = "Ysondre",
+		{
+			{ itemID = 17369 }, -- Emerald Dragonfang
+			{ itemID = 17385 }, -- Hammer of Bestial Fury
+			{ itemID = 17386 }, -- Staff of Rampant Growth
+			{ itemID = 17387 }, -- Trance Stone
+			gap,
+			{ itemID = 17483 }, -- Acid Inscribed Greaves
+			{ itemID = 17627 }, -- Acid Inscribed Pauldrons
+			{ itemID = 17464 }, -- Ancient Corroded Leggings
+			{ itemID = 17426 }, -- Dragonbone Wristguards
+			{ itemID = 17425 }, -- Dragonspur Wraps
+			{ itemID = 17465 }, -- Gloves of Delusional Power
+			{ itemID = 17370 }, -- Green Dragonskin Cloak
+			{ itemID = 17543 }, -- Hibernation Crystal
+			{ itemID = 17526 }, -- Jade Inlaid Vestments
+			{ itemID = 17645 }, -- Leggings of the Demented Mind
+			{ itemID = 17646 }, -- Strangely Glyphed Legplates
+		}
 	},
 }
 
