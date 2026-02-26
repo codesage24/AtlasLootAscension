@@ -7293,7 +7293,7 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 11795, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Earthfury Treads
 		},
 	},
-		{
+	{
 		Name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]..color.WHITE.." - "..AL["Elemental"],
 		{
 			{ itemID = 10861, desc = "=ds=" ..BabbleBoss["Garr"] }, --Earthfury Cover
@@ -7304,6 +7304,19 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 10926, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Earthfury Girdle
 			{ itemID = 10960, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Earthfury Leggings
 			{ itemID = 10961, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Earthfury Treads
+		},
+	},
+	{
+		Name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]..color.WHITE.." - "..AL["Earthen Guardian"],
+		{
+			{ itemID = 12505, desc = "=ds=" ..BabbleBoss["Garr"] }, --Charred Defender's Helm
+			{ itemID = 12506, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Charred Defender's Spaulders
+			{ itemID = 12507, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Charred Defender's Breastplate
+			{ itemID = 12508, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Charred Defender's Vambraces
+			{ itemID = 12559, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Charred Defender's Gauntlets
+			{ itemID = 12568, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Charred Defender's Girdle
+			{ itemID = 12569, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Charred Defender's Legguards
+			{ itemID = 12570, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Charred Defender's Boots
 		},
 	},
 	{
