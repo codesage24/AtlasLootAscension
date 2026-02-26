@@ -7117,37 +7117,11 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 16834, desc = "=ds=" ..BabbleBoss["Garr"] }, --Cenarion Helm
 			{ itemID = 16836, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Cenarion Spaulders
 			{ itemID = 16833, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Cenarion Vestments
-			{ itemID = 16830, desc = "=ds=" ..AL["Trash Mobs"] }, --Cenarion Bracers
+			{ itemID = 16830, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Cenarion Bracers
 			{ itemID = 16831, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Cenarion Gloves
-			{ itemID = 16828, desc = "=ds=" ..AL["Trash Mobs"] }, --Cenarion Belt
+			{ itemID = 16828, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Cenarion Belt
 			{ itemID = 16835, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Cenarion Leggings
-			{ itemID = 16829, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Cenarion Boots
-		},
-	},
-	{
-		Name = "Druid" ..color.WHITE.." - "..AL["Guardian"],
-		{
-			{ itemID = 13437, desc = "=ds=" ..BabbleBoss["Garr"] }, --Cenarion Cover
-			{ itemID = 13439, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Cenarion Pauldrons
-			{ itemID = 13436, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Cenarion Tunic
-			{ itemID = 13434, desc = "=ds=" ..AL["Trash Mobs"] }, --Cenarion Bands
-			{ itemID = 13435, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Cenarion Handguards
-			{ itemID = 13432, desc = "=ds=" ..AL["Trash Mobs"] }, --Cenarion Girdle
-			{ itemID = 13438, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Cenarion Pants
-			{ itemID = 13433, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Cenarion Treads
-		},
-	},
-	{
-		Name = "Druid" ..color.WHITE.." - "..AL["Feral"],
-		{
-			{ itemID = 10984, desc = "=ds=" ..BabbleBoss["Garr"] }, --Cenarion Cover
-			{ itemID = 10986, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Cenarion Pauldrons
-			{ itemID = 10983, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Cenarion Tunic
-			{ itemID = 10981, desc = "=ds=" ..AL["Trash Mobs"] }, --Cenarion Bands
-			{ itemID = 10982, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Cenarion Handguards
-			{ itemID = 10979, desc = "=ds=" ..AL["Trash Mobs"] }, --Cenarion Girdle
-			{ itemID = 10985, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Cenarion Pants
-			{ itemID = 10980, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Cenarion Treads
+			{ itemID = 16829, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Cenarion Boots
 		},
 	},
 	{
@@ -7156,24 +7130,50 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 10395, desc = "=ds=" ..BabbleBoss["Garr"] }, --Cenarion Cover
 			{ itemID = 10396, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Cenarion Pauldrons
 			{ itemID = 10415, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Cenarion Tunic
-			{ itemID = 10416, desc = "=ds=" ..AL["Trash Mobs"] }, --Cenarion Bands
+			{ itemID = 10416, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Cenarion Bands
 			{ itemID = 10425, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Cenarion Handguards
-			{ itemID = 10468, desc = "=ds=" ..AL["Trash Mobs"] }, --Cenarion Girdle
+			{ itemID = 10468, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Cenarion Girdle
 			{ itemID = 10469, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Cenarion Pants
-			{ itemID = 10516, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Cenarion Treads
+			{ itemID = 10516, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Cenarion Treads
+		},
+	},
+	{
+		Name = "Druid" ..color.WHITE.." - "..AL["Guardian"],
+		{
+			{ itemID = 13437, desc = "=ds=" ..BabbleBoss["Garr"] }, --Cenarion Cover
+			{ itemID = 13439, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Cenarion Pauldrons
+			{ itemID = 13436, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Cenarion Tunic
+			{ itemID = 13434, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Cenarion Bands
+			{ itemID = 13435, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Cenarion Handguards
+			{ itemID = 13432, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Cenarion Girdle
+			{ itemID = 13438, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Cenarion Pants
+			{ itemID = 13433, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Cenarion Treads
+		},
+	},
+	{
+		Name = "Druid" ..color.WHITE.." - "..AL["Feral"],
+		{
+			{ itemID = 10984, desc = "=ds=" ..BabbleBoss["Garr"] }, --Cenarion Cover
+			{ itemID = 10986, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Cenarion Pauldrons
+			{ itemID = 10983, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Cenarion Tunic
+			{ itemID = 10981, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Cenarion Bands
+			{ itemID = 10982, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Cenarion Handguards
+			{ itemID = 10979, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Cenarion Girdle
+			{ itemID = 10985, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Cenarion Pants
+			{ itemID = 10980, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Cenarion Treads
 		},
 	},
 	{
 		Name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
 		{
 			{ itemID = 16846, desc = "=ds=" ..BabbleBoss["Garr"] }, --Giantstalker's Helmet
-			{ itemID = 16848, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Giantstalker's Epaulets
+			{ itemID = 16848, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Giantstalker's Epaulets
 			{ itemID = 16845, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Giantstalker's Breastplate
-			{ itemID = 16850, desc = "=ds=" ..AL["Trash Mobs"] }, --Giantstalker's Bracers
+			{ itemID = 16850, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Giantstalker's Bracers
 			{ itemID = 16852, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Giantstalker's Gloves
-			{ itemID = 16851, desc = "=ds=" ..AL["Trash Mobs"] }, --Giantstalker's Belt
+			{ itemID = 16851, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Giantstalker's Belt
 			{ itemID = 16847, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Giantstalker's Leggings
-			{ itemID = 16849, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Giantstalker's Boots
+			{ itemID = 16849, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Giantstalker's Boots
 		},
 	},
 	{
@@ -7182,11 +7182,11 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 16795, desc = "=ds=" ..BabbleBoss["Garr"] }, --Arcanist Crown
 			{ itemID = 16797, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Arcanist Mantle
 			{ itemID = 16798, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Arcanist Robes
-			{ itemID = 16799, desc = "=ds=" ..AL["Trash Mobs"] }, --Arcanist Bindings
+			{ itemID = 16799, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Arcanist Bindings
 			{ itemID = 16801, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Arcanist Gloves
-			{ itemID = 16802, desc = "=ds=" ..AL["Trash Mobs"] }, --Arcanist Belt
+			{ itemID = 16802, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Arcanist Belt
 			{ itemID = 16796, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Arcanist Leggings
-			{ itemID = 16800, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Arcanist Boots
+			{ itemID = 16800, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Arcanist Boots
 		},
 	},
 	{
@@ -7195,11 +7195,11 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 16854, desc = "=ds=" ..BabbleBoss["Garr"] }, --Lawbringer Helm
 			{ itemID = 16856, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Lawbringer Spaulders
 			{ itemID = 16853, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Lawbringer Chestguard
-			{ itemID = 16857, desc = "=ds=" ..AL["Trash Mobs"] }, --Lawbringer Bracers
-			{ itemID = 16860, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Lawbringer Gauntlets
-			{ itemID = 16858, desc = "=ds=" ..AL["Trash Mobs"] }, --Lawbringer Belt
+			{ itemID = 16857, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Lawbringer Bracers
+			{ itemID = 16860, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Lawbringer Gauntlets
+			{ itemID = 16858, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Lawbringer Belt
 			{ itemID = 16855, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Lawbringer Legplates
-			{ itemID = 16859, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Lawbringer Boots
+			{ itemID = 16859, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Lawbringer Boots
 		},
 	},
 	{
@@ -7208,11 +7208,11 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 11536, desc = "=ds=" ..BabbleBoss["Garr"] }, --Lawbringer Greathelm
 			{ itemID = 11538, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Lawbringer Pauldrons
 			{ itemID = 11535, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Lawbringer Breastplate
-			{ itemID = 11531, desc = "=ds=" ..AL["Trash Mobs"] }, --Lawbringer Wristguards
-			{ itemID = 11533, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Lawbringer Handguards
-			{ itemID = 11534, desc = "=ds=" ..AL["Trash Mobs"] }, --Lawbringer Waistguard
+			{ itemID = 11531, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Lawbringer Wristguards
+			{ itemID = 11533, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Lawbringer Handguards
+			{ itemID = 11534, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Lawbringer Waistguard
 			{ itemID = 11537, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Lawbringer Legguards
-			{ itemID = 11532, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Lawbringer Stompers
+			{ itemID = 11532, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Lawbringer Stompers
 		},
 	},
 		{
@@ -7221,50 +7221,50 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 11236, desc = "=ds=" ..BabbleBoss["Garr"] }, --Lawbringer Helmet
 			{ itemID = 11237, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Lawbringer Epaulets
 			{ itemID = 11238, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Lawbringer Chestpiece
-			{ itemID = 11244, desc = "=ds=" ..AL["Trash Mobs"] }, --Lawbringer Bands
-			{ itemID = 11245, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Lawbringer Gloves
-			{ itemID = 11246, desc = "=ds=" ..AL["Trash Mobs"] }, --Lawbringer Girdle
+			{ itemID = 11244, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Lawbringer Bands
+			{ itemID = 11245, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Lawbringer Gloves
+			{ itemID = 11246, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Lawbringer Girdle
 			{ itemID = 11247, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Lawbringer Greaves
-			{ itemID = 11248, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Lawbringer Treads
+			{ itemID = 11248, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Lawbringer Treads
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"]..color.WHITE.." - ".. AL["Healing"],
+		Name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"]..color.WHITE.." - ".. AL["Healer"],
 		{
 			{ itemID = 16813, desc = "=ds=" ..BabbleBoss["Garr"] }, --Circlet of Prophecy
-			{ itemID = 16816, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Mantle of Prophecy
+			{ itemID = 16816, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Mantle of Prophecy
 			{ itemID = 16815, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] },
-			{ itemID = 16819, desc = "=ds=" ..AL["Trash Mobs"] }, --Vambraces of Prophecy
-			{ itemID = 16812, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Gloves of Prophecy
-			{ itemID = 16817, desc = "=ds=" ..AL["Trash Mobs"] }, --Girdle of Prophecy
+			{ itemID = 16819, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Vambraces of Prophecy
+			{ itemID = 16812, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Gloves of Prophecy
+			{ itemID = 16817, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Girdle of Prophecy
 			{ itemID = 16814, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Pants of Prophecy
-			{ itemID = 16811, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Boots of Prophecy
+			{ itemID = 16811, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Boots of Prophecy
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"]..color.WHITE.." - ".. AL["Shadow"],
+		Name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"]..color.WHITE.." - ".. AL["Caster"],
 		{
 			{ itemID = 10012, desc = "=ds=" ..BabbleBoss["Garr"] }, --Circlet of Prophecy
-			{ itemID = 10013, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Mantle of Prophecy
+			{ itemID = 10013, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Mantle of Prophecy
 			{ itemID = 10291, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Gown of Prophecy
-			{ itemID = 10292, desc = "=ds=" ..AL["Trash Mobs"] }, --Vambraces of Prophecy
-			{ itemID = 10293, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Gloves of Prophecy
-			{ itemID = 10294, desc = "=ds=" ..AL["Trash Mobs"] }, --Girdle of Prophecy
+			{ itemID = 10292, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Vambraces of Prophecy
+			{ itemID = 10293, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Gloves of Prophecy
+			{ itemID = 10294, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Girdle of Prophecy
 			{ itemID = 10295, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Pants of Prophecy
-			{ itemID = 10334, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Boots of Prophecy
+			{ itemID = 10334, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Boots of Prophecy
 		},
 	},
 	{
 		Name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
 		{
 			{ itemID = 16821, desc = "=ds=" ..BabbleBoss["Garr"] }, --Nightslayer Cover
-			{ itemID = 16823, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Nightslayer Shoulder Pads
+			{ itemID = 16823, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Nightslayer Shoulder Pads
 			{ itemID = 16820, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Nightslayer Chestpiece
-			{ itemID = 16825, desc = "=ds=" ..AL["Trash Mobs"] }, --Nightslayer Bracelets
-			{ itemID = 16826, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Nightslayer Gloves
-			{ itemID = 16827, desc = "=ds=" ..AL["Trash Mobs"] }, --Nightslayer Belt
+			{ itemID = 16825, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Nightslayer Bracelets
+			{ itemID = 16826, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Nightslayer Gloves
+			{ itemID = 16827, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Nightslayer Belt
 			{ itemID = 16822, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Nightslayer Pants
-			{ itemID = 16824, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Nightslayer Boots
+			{ itemID = 16824, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Nightslayer Boots
 		},
 	},
 	{
@@ -7273,11 +7273,11 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 16842, desc = "=ds=" ..BabbleBoss["Garr"] }, --Earthfury Helmet
 			{ itemID = 16844, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Earthfury Epaulets
 			{ itemID = 16841, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Earthfury Vestments
-			{ itemID = 16840, desc = "=ds=" ..AL["Trash Mobs"] }, --Earthfury Bracers
-			{ itemID = 16839, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Earthfury Gauntlets
-			{ itemID = 16838, desc = "=ds=" ..AL["Trash Mobs"] }, --Earthfury Belt
+			{ itemID = 16840, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Earthfury Bracers
+			{ itemID = 16839, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Earthfury Gauntlets
+			{ itemID = 16838, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Earthfury Belt
 			{ itemID = 16843, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Earthfury Legguards
-			{ itemID = 16837, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Earthfury Boots
+			{ itemID = 16837, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Earthfury Boots
 		},
 	},
 	{
@@ -7286,11 +7286,11 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 11794, desc = "=ds=" ..BabbleBoss["Garr"] }, --Earthfury Cover
 			{ itemID = 11796, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Earthfury Pauldrons
 			{ itemID = 11792, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Earthfury Tunic
-			{ itemID = 11793, desc = "=ds=" ..AL["Trash Mobs"] }, --Earthfury Bands
-			{ itemID = 11791, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Earthfury Gloves
-			{ itemID = 11790, desc = "=ds=" ..AL["Trash Mobs"] }, --Earthfury Girdle
+			{ itemID = 11793, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Earthfury Bands
+			{ itemID = 11791, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Earthfury Gloves
+			{ itemID = 11790, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Earthfury Girdle
 			{ itemID = 11789, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Earthfury Leggings
-			{ itemID = 11795, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Earthfury Treads
+			{ itemID = 11795, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Earthfury Treads
 		},
 	},
 		{
@@ -7299,11 +7299,11 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 10861, desc = "=ds=" ..BabbleBoss["Garr"] }, --Earthfury Cover
 			{ itemID = 10908, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Earthfury Pauldrons
 			{ itemID = 10923, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] }, --Earthfury Tunic
-			{ itemID = 10924, desc = "=ds=" ..AL["Trash Mobs"] }, --Earthfury Bands
-			{ itemID = 10925, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Earthfury Gloves
-			{ itemID = 10926, desc = "=ds=" ..AL["Trash Mobs"] }, --Earthfury Girdle
+			{ itemID = 10924, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Earthfury Bands
+			{ itemID = 10925, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Earthfury Gloves
+			{ itemID = 10926, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Earthfury Girdle
 			{ itemID = 10960, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Earthfury Leggings
-			{ itemID = 10961, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Earthfury Treads
+			{ itemID = 10961, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Earthfury Treads
 		},
 	},
 	{
@@ -7312,37 +7312,37 @@ AtlasLoot_Data["T1"] = {
 			{ itemID = 16808, desc = "=ds=" ..BabbleBoss["Garr"] }, --Felheart Horns
 			{ itemID = 16807, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Felheart Shoulder Pads
 			{ itemID = 16809, "=q4=Felheart Robes", "=ds=" ..BabbleBoss["Golemagg the Incinerator"] },
-			{ itemID = 16804, desc = "=ds=" ..AL["Trash Mobs"] }, --Felheart Bracers
-			{ itemID = 16805, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Felheart Gloves
-			{ itemID = 16806, desc = "=ds=" ..AL["Trash Mobs"] }, --Felheart Belt
+			{ itemID = 16804, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Felheart Bracers
+			{ itemID = 16805, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Felheart Gloves
+			{ itemID = 16806, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Felheart Belt
 			{ itemID = 16810, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Felheart Pants
-			{ itemID = 16803, "=q4=Felheart Slippers", "=ds=" ..BabbleBoss["Shazzrah"], "1" },
+			{ itemID = 16803, "=q4=Felheart Slippers", "=ds=" ..BabbleBoss["Sulfuron Harbinger"], "1" },
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"] ..color.WHITE.." - ".. AL["Tank"],
+		Name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"] ..color.WHITE.." - ".. AL["Protection"],
 		{
 			{ itemID = 16866, desc = "=ds=" ..BabbleBoss["Garr"] }, --Helm of Might
-			{ itemID = 16868, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Pauldrons of Might
+			{ itemID = 16868, desc = "=ds=" ..BabbleBoss["Baron Geddon"] }, --Pauldrons of Might
 			{ itemID = 16865, "=q4=Breastplate of Might", "=ds=" ..BabbleBoss["Golemagg the Incinerator"], "1" },
-			{ itemID = 16861, desc = "=ds=" ..AL["Trash Mobs"] }, --Bracers of Might
-			{ itemID = 16863, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Gauntlets of Might
-			{ itemID = 16864, desc = "=ds=" ..AL["Trash Mobs"] }, --Belt of Might
+			{ itemID = 16861, desc = "=ds=" ..BabbleBoss["Lucifron"] }, --Bracers of Might
+			{ itemID = 16863, desc = "=ds=" ..BabbleBoss["Shazzrah"] }, --Gauntlets of Might
+			{ itemID = 16864, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Belt of Might
 			{ itemID = 16867, desc = "=ds=" ..BabbleBoss["Magmadar"] }, --Legplates of Might
-			{ itemID = 16862, desc = "=ds=" ..BabbleBoss["Gehennas"] }, --Sabatons of Might
+			{ itemID = 16862, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] }, --Sabatons of Might
 		},
 	},
 	{
 		Name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"] ..color.WHITE.." - ".. AL["DPS"],
 		{
 			{ itemID = 10480, desc = "=ds=" ..BabbleBoss["Garr"] },--Faceguard of Might
-			{ itemID = 10481, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] },--Shoulderpads of Might
+			{ itemID = 10481, desc = "=ds=" ..BabbleBoss["Baron Geddon"] },--Shoulderpads of Might
 			{ itemID = 10482, desc = "=ds=" ..BabbleBoss["Golemagg the Incinerator"] },--Chesttplate of Might
-			{ itemID = 10483, desc = "=ds=" ..AL["Trash Mobs"] },--Wristguards of Might
-			{ itemID = 10484, desc = "=ds=" ..BabbleBoss["Lucifron"] },--Handguards of Might
-			{ itemID = 10485, desc = "=ds=" ..AL["Trash Mobs"] },--Girdle of Might
+			{ itemID = 10483, desc = "=ds=" ..BabbleBoss["Lucifron"] },--Wristguards of Might
+			{ itemID = 10484, desc = "=ds=" ..BabbleBoss["Shazzrah"] },--Handguards of Might
+			{ itemID = 10485, desc = "=ds=" ..BabbleBoss["Gehennas"] },--Girdle of Might
 			{ itemID = 10486, desc = "=ds=" ..BabbleBoss["Magmadar"] },--Legguards of Might
-			{ itemID = 10487, desc = "=ds=" ..BabbleBoss["Gehennas"] },--Stompers of Might
+			{ itemID = 10487, desc = "=ds=" ..BabbleBoss["Sulfuron Harbinger"] },--Stompers of Might
 		},
 	},
 }
@@ -7353,42 +7353,55 @@ AtlasLoot_Data["T2"] = {
 	Name = "Tier 2",
 	Type = "ClassicRaid",
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["DRUID"]..color.WHITE.." - Healer",
+		Name = LOCALIZED_CLASS_NAMES_MALE["DRUID"]..color.WHITE.." - Restoration",
 		{
-			{ itemID = 16900, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Stormrage Cover
-			{ itemID = 16902, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Stormrage Pauldrons
-			{ itemID = 16897, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Stormrage Chestguard
-			{ itemID = 16904, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Stormrage Bracers
-			{ itemID = 16899, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Stormrage Handguards
-			{ itemID = 16903, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Stormrage Belt
-			{ itemID = 16901, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Stormrage Legguards
-			{ itemID = 16898, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Stormrage Boots
+			{ itemID = 16900, desc = "=ds=" ..BabbleBoss["Onyxia"] }, -- Stormrage Cover
+			{ itemID = 16902, desc = "=ds=" ..BabbleBoss["Chromaggus"] }, -- Stormrage Pauldrons
+			{ itemID = 16897, desc = "=ds=" ..BabbleBoss["Nefarian"] }, -- Stormrage Chestguard
+			{ itemID = 16904, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] }, -- Stormrage Bracers
+			{ itemID = 16899, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] }, -- Stormrage Handguards
+			{ itemID = 16903, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] }, -- Stormrage Belt
+			{ itemID = 16901, desc = "=ds=" ..BabbleBoss["Ragnaros"] }, -- Stormrage Legguards
+			{ itemID = 16898, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] }, -- Stormrage Boots
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["DRUID"] ..color.WHITE.." - Tank",
+		Name = LOCALIZED_CLASS_NAMES_MALE["DRUID"]..color.WHITE.." - Balance",
 		{
-			{ itemID = 1517000, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Stormrage Cover
-			{ itemID = 1517002, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Stormrage Pauldrons
-			{ itemID = 1516997, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Stormrage Chestguard
-			{ itemID = 1517004, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Stormrage Bracers
-			{ itemID = 1516999, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Stormrage Handguards
-			{ itemID = 1517003, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Stormrage Belt
-			{ itemID = 1517001, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Stormrage Legguards
-			{ itemID = 1516998, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Stormrage Boots
+			{ itemID = 1516892, desc = "=ds=" ..BabbleBoss["Onyxia"] }, -- Stormrage Antlers
+			{ itemID = 1516894, desc = "=ds=" ..BabbleBoss["Chromaggus"] }, -- Stormrage Mantle
+			{ itemID = 1516889, desc = "=ds=" ..BabbleBoss["Nefarian"] }, -- Stormrage Robes
+			{ itemID = 1516896, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] }, -- Stormrage Wristwraps
+			{ itemID = 1516891, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] }, -- Stormrage Grips
+			{ itemID = 1516895, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] }, -- Stormrage Sash
+			{ itemID = 1516893, desc = "=ds=" ..BabbleBoss["Ragnaros"] }, -- Stormrage Woolies
+			{ itemID = 1516890, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] }, -- Stormrage Walkers
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["DRUID"] ..color.WHITE.." - Caster",
+		Name = LOCALIZED_CLASS_NAMES_MALE["DRUID"]..color.WHITE.." - Guardian",
 		{
-			{ itemID = 1516892, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Stormrage Cover
-			{ itemID = 1516894, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Stormrage Pauldrons
-			{ itemID = 1516889, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Stormrage Chestguard
-			{ itemID = 1516896, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Stormrage Bracers
-			{ itemID = 1516891, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Stormrage Handguards
-			{ itemID = 1516895, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Stormrage Belt
-			{ itemID = 1516893, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Stormrage Legguards
-			{ itemID = 1516890, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Stormrage Boots
+			{ itemID = 1516900, desc = "=ds=" ..BabbleBoss["Onyxia"] }, -- Stormrage Headguard
+			{ itemID = 1516902, desc = "=ds=" ..BabbleBoss["Chromaggus"] }, -- Stormrage Shoulderguards
+			{ itemID = 1516897, desc = "=ds=" ..BabbleBoss["Nefarian"] }, -- Stormrage Tunic
+			{ itemID = 1516904, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] }, -- Stormrage Bands
+			{ itemID = 1516899, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] }, -- Stormrage Gloves
+			{ itemID = 1516903, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] }, -- Stormrage Girdle
+			{ itemID = 1516901, desc = "=ds=" ..BabbleBoss["Ragnaros"] }, -- Stormrage Pants
+			{ itemID = 1516898, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] }, -- Stormrage Treads
+		},
+	},
+	{
+		Name = LOCALIZED_CLASS_NAMES_MALE["DRUID"]..color.WHITE.." - Feral",
+		{
+			{ itemID = 1517000, desc = "=ds=" ..BabbleBoss["Onyxia"] }, -- Stormrage Hood
+			{ itemID = 1517002, desc = "=ds=" ..BabbleBoss["Chromaggus"] }, -- Stormrage Shoulderpads
+			{ itemID = 1516997, desc = "=ds=" ..BabbleBoss["Nefarian"] }, -- Stormrage Chestcover
+			{ itemID = 1517004, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] }, -- Stormrage Wristguards
+			{ itemID = 1516999, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] }, -- Stormrage Handwraps
+			{ itemID = 1517003, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] }, -- Stormrage Waistguard
+			{ itemID = 1517001, desc = "=ds=" ..BabbleBoss["Ragnaros"] }, -- Stormrage Leggings
+			{ itemID = 1516998, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] }, -- Stormrage Sandals
 		},
 	},
 	{
@@ -7397,7 +7410,7 @@ AtlasLoot_Data["T2"] = {
 			{ itemID = 16939, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Dragonstalker's Helm
 			{ itemID = 16937, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Dragonstalker's Spaulders
 			{ itemID = 16942, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Dragonstalker's Breastplate
-			{ itemID = 16935, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Dragonstalker's Bracers
+			{ itemID = 16935, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Dragonstalker's Bracers
 			{ itemID = 16940, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Dragonstalker's Gauntlets
 			{ itemID = 16936, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Dragonstalker's Belt
 			{ itemID = 16938, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Dragonstalker's Legguards
@@ -7410,7 +7423,7 @@ AtlasLoot_Data["T2"] = {
 			{ itemID = 16914, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Netherwind Crown
 			{ itemID = 16917, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Netherwind Mantle
 			{ itemID = 16916, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Netherwind Robes
-			{ itemID = 16918, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Netherwind Bindings
+			{ itemID = 16918, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Netherwind Bindings
 			{ itemID = 16913, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Netherwind Gloves
 			{ itemID = 16818, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Netherwind Belt
 			{ itemID = 16915, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Netherwind Pants
@@ -7418,12 +7431,25 @@ AtlasLoot_Data["T2"] = {
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+		Name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"]..color.WHITE.." - Holy",
+		{
+			{ itemID = 13200, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Judgement Helmet
+			{ itemID = 13224, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Judgement Eqaulets
+			{ itemID = 13225, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Judgement Chestpiece
+			{ itemID = 13226, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Judgement Bands
+			{ itemID = 13227, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Judgement Gloves
+			{ itemID = 13228, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Judgement Girdle
+			{ itemID = 13229, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Judgement Greaves
+			{ itemID = 13230, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Judgement Treads
+		},
+	},
+	{
+		Name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"]..color.WHITE.." - Retribution",
 		{
 			{ itemID = 16955, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Judgement Crown
 			{ itemID = 16953, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Judgement Spaulders
 			{ itemID = 16958, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Judgement Breastplate
-			{ itemID = 16951, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Judgement Bindings
+			{ itemID = 16951, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Judgement Bindings
 			{ itemID = 16956, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Judgement Gauntlets
 			{ itemID = 16952, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Judgement Belt
 			{ itemID = 16954, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Judgement Legplates
@@ -7431,16 +7457,16 @@ AtlasLoot_Data["T2"] = {
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"]..color.WHITE.." - Tank",
+		Name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"]..color.WHITE.." - Protection",
 		{
-			{ itemID = 1516955, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Judgement Crown
-			{ itemID = 1516953, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Judgement Spaulders
-			{ itemID = 1516958, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Judgement Breastplate
-			{ itemID = 1516951, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Judgement Bindings
-			{ itemID = 1516956, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Judgement Gauntlets
-			{ itemID = 1516952, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Judgement Belt
-			{ itemID = 1516954, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Judgement Legplates
-			{ itemID = 1516957, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Judgement Sabatons
+			{ itemID = 1516955, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Judgement Cowl
+			{ itemID = 1516953, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Judgement Shoulderguards
+			{ itemID = 1516958, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Judgement Chestguard
+			{ itemID = 1516951, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Judgement Wristguards
+			{ itemID = 1516956, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Judgement Handguards
+			{ itemID = 1516952, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Judgement Waistguard
+			{ itemID = 1516954, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Judgement Legguards
+			{ itemID = 1516957, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Judgement Stompers
 		},
 	},
 	{
@@ -7449,7 +7475,7 @@ AtlasLoot_Data["T2"] = {
 			{ itemID = 16921, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Halo of Transcendence
 			{ itemID = 16924, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Pauldrons of Transcendence
 			{ itemID = 16923, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Robes of Transcendence
-			{ itemID = 16926, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Bindings of Transcendence
+			{ itemID = 16926, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Bindings of Transcendence
 			{ itemID = 16920, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Handguards of Transcendence
 			{ itemID = 16925, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Belt of Transcendence
 			{ itemID = 16922, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Leggings of Transcendence
@@ -7462,7 +7488,7 @@ AtlasLoot_Data["T2"] = {
 			{ itemID = 1516921, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Halo of Transcendence
 			{ itemID = 1516924, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Pauldrons of Transcendence
 			{ itemID = 1516923, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Robes of Transcendence
-			{ itemID = 1516926, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Bindings of Transcendence
+			{ itemID = 1516926, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Bindings of Transcendence
 			{ itemID = 1516920, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Handguards of Transcendence
 			{ itemID = 1516925, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Belt of Transcendence
 			{ itemID = 1516922, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Leggings of Transcendence
@@ -7475,7 +7501,7 @@ AtlasLoot_Data["T2"] = {
 			{ itemID = 16908, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Bloodfang Hood
 			{ itemID = 16832, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Bloodfang Spaulders
 			{ itemID = 16905, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Bloodfang Chestpiece
-			{ itemID = 16911, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Bloodfang Bracers
+			{ itemID = 16911, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Bloodfang Bracers
 			{ itemID = 16907, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Bloodfang Gloves
 			{ itemID = 16910, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Bloodfang Belt
 			{ itemID = 16909, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Bloodfang Pants
@@ -7483,42 +7509,55 @@ AtlasLoot_Data["T2"] = {
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]..color.WHITE.." - Healer",
+		Name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]..color.WHITE.." - Restoration",
 		{
 			{ itemID = 16947, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Helmet of Ten Storms
 			{ itemID = 16945, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Epaulets of Ten Storms
 			{ itemID = 16950, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Breastplate of Ten Storms
-			{ itemID = 16943, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Bracers of Ten Storms
-			{ itemID = 16948, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Gauntlets of Ten Storms
+			{ itemID = 16943, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Bracers of Ten Storms
+			{ itemID = 16948, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Gloves of Ten Storms
 			{ itemID = 16944, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Belt of Ten Storms
 			{ itemID = 16946, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Legplates of Ten Storms
 			{ itemID = 16949, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Greaves of Ten Storms
 		},
 	},
 	{		
-		Name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]..color.WHITE.." - Caster",
+		Name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]..color.WHITE.." - Elemental",
 		{
-			{ itemID = 10962, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Helmet of Ten Storms
-			{ itemID = 10963, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Epaulets of Ten Storms
-			{ itemID = 10964, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Breastplate of Ten Storms
-			{ itemID = 10965, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Bracers of Ten Storms
-			{ itemID = 11001, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Gauntlets of Ten Storms
-			{ itemID = 11002, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Belt of Ten Storms
-			{ itemID = 11003, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Legplates of Ten Storms
-			{ itemID = 11004, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Greaves of Ten Storms
+			{ itemID = 10962, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Headguard of Ten Storms
+			{ itemID = 10963, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Mantle of Ten Storms
+			{ itemID = 10964, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Tunic of Ten Storms
+			{ itemID = 10965, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Cuffs of Ten Storms
+			{ itemID = 11001, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Grips of Ten Storms
+			{ itemID = 11002, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Cord of Ten Storms
+			{ itemID = 11003, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Pants of Ten Storms
+			{ itemID = 11004, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Boots of Ten Storms
 		},
 	},
 	{		
-		Name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]..color.WHITE.." - Hybrid",
+		Name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]..color.WHITE.." - Enhancement",
 		{
-			{ itemID = 1516947, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Helmet of Ten Storms
-			{ itemID = 1516945, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Epaulets of Ten Storms
-			{ itemID = 1516950, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Breastplate of Ten Storms
-			{ itemID = 1516943, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Bracers of Ten Storms
+			{ itemID = 1516947, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Faceguard of Ten Storms
+			{ itemID = 1516945, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Pauldrons of Ten Storms
+			{ itemID = 1516950, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Raiment of Ten Storms
+			{ itemID = 1516943, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Shackles of Ten Storms
 			{ itemID = 1516948, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Gauntlets of Ten Storms
-			{ itemID = 1516944, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Belt of Ten Storms
-			{ itemID = 1516946, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Legplates of Ten Storms
-			{ itemID = 1516949, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Greaves of Ten Storms
+			{ itemID = 1516944, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Waistguard of Ten Storms
+			{ itemID = 1516946, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Leggings of Ten Storms
+			{ itemID = 1516949, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Sabatons of Ten Storms
+		},
+	},
+	{		
+		Name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]..color.WHITE.." - Earthen Guardian",
+		{
+			{ itemID = 13540, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Dragonscale Helm
+			{ itemID = 13564, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Dragonscale Spaulders
+			{ itemID = 13239, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Dragonscale Hauberk
+			{ itemID = 13238, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Dragonscale Armguards
+			{ itemID = 13298, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Dragonscale Gauntlets
+			{ itemID = 13563, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Dragonscale Girdle
+			{ itemID = 13240, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Dragonscale Greaves
+			{ itemID = 13440, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Dragonscale Boots
 		},
 	},
 	{
@@ -7527,7 +7566,7 @@ AtlasLoot_Data["T2"] = {
 			{ itemID = 16929, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Nemesis Skullcap
 			{ itemID = 16932, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Nemesis Spaulders
 			{ itemID = 16931, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Nemesis Robes
-			{ itemID = 16934, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Nemesis Bracers
+			{ itemID = 16934, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Nemesis Bracers
 			{ itemID = 16928, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Nemesis Gloves
 			{ itemID = 16933, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Nemesis Belt
 			{ itemID = 16930, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Nemesis Leggings
@@ -7540,7 +7579,7 @@ AtlasLoot_Data["T2"] = {
 			{ itemID = 10904, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Faceguard of Wrath
 			{ itemID = 10902, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Shoulderpads of Wrath
 			{ itemID = 10907, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Chestplate of Wrath
-			{ itemID = 10900, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Wristguards of Wrath
+			{ itemID = 10900, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Wristguards of Wrath
 			{ itemID = 10905, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Grippers of Wrath
 			{ itemID = 10901, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Belt of Wrath
 			{ itemID = 10903, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Legguards of Wrath
@@ -7548,12 +7587,12 @@ AtlasLoot_Data["T2"] = {
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]..color.WHITE.." - Block Tank",
+		Name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]..color.WHITE.." - Protection (Block)",
 		{
 			{ itemID = 16963, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Helm of Wrath
 			{ itemID = 16961, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Pauldrons of Wrath
 			{ itemID = 16966, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Breastplate of Wrath
-			{ itemID = 16959, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Bracelets of Wrath
+			{ itemID = 16959, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Bracelets of Wrath
 			{ itemID = 16964, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Gauntlets of Wrath
 			{ itemID = 16960, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Waistband of Wrath
 			{ itemID = 16962, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Legplates of Wrath
@@ -7561,16 +7600,16 @@ AtlasLoot_Data["T2"] = {
 		},
 	},
 	{
-		Name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]..color.WHITE.." - Avoidance Tank",
+		Name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]..color.WHITE.." - Protection (Avoidance)",
 		{
-			{ itemID = 1516963, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Faceguard of Wrath
-			{ itemID = 1516961, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Shoulderpads of Wrath
-			{ itemID = 1516966, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Chestplate of Wrath
-			{ itemID = 1516959, desc = "=ds=" ..BabbleBoss["Razorgore the Untamed"] },--Wristguards of Wrath
-			{ itemID = 1516964, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Grippers of Wrath
-			{ itemID = 1516960, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Belt of Wrath
-			{ itemID = 1516962, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Legguards of Wrath
-			{ itemID = 1516965, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Stompers of Wrath
+			{ itemID = 1516963, desc = "=ds=" ..BabbleBoss["Onyxia"] },--Helmet of Wrath
+			{ itemID = 1516961, desc = "=ds=" ..BabbleBoss["Chromaggus"] },--Shoulderguards of Wrath
+			{ itemID = 1516966, desc = "=ds=" ..BabbleBoss["Nefarian"] },--Chestguard of Wrath
+			{ itemID = 1516959, desc = BabbleBoss["Majordomo Executus"] ..", " ..BabbleBoss["Razorgore the Untamed"] },--Bracers of Wrath
+			{ itemID = 1516964, desc = BabbleBoss["Firemaw"] ..", " ..BabbleBoss["Ebonroc"] ..", " ..BabbleBoss["Flamegor"] },--Gloves of Wrath
+			{ itemID = 1516960, desc = "=ds=" ..BabbleBoss["Vaelastrasz the Corrupt"] },--Girdle of Wrath
+			{ itemID = 1516962, desc = "=ds=" ..BabbleBoss["Ragnaros"] },--Leggings of Wrath
+			{ itemID = 1516965, desc = "=ds=" ..BabbleBoss["Broodlord Lashlayer"] },--Boots of Wrath
 		},
 	},
 }

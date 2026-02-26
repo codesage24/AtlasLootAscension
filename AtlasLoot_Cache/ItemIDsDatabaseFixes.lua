@@ -10,34 +10,6 @@
 ItemIDsDatabaseCorrectedIDs = {}
 --ItemIDsDatabaseCorrectedIDs[30312] = { Bloodforged, Heroic Bloodforged, Normal(is always nil), HeroicID, MythicID, AscendedID }
 
---T3
-ItemIDsDatabaseCorrectedIDs[22491] = { nil, nil, nil, 322491, 1322491, 222491 }
-ItemIDsDatabaseCorrectedIDs[22493] = { nil, nil, nil, 322493, 1322493, 222493 }
-ItemIDsDatabaseCorrectedIDs[22489] = { nil, nil, nil, 322489, 1322489, 222489 }
-ItemIDsDatabaseCorrectedIDs[1507043] = { nil, nil, nil, 1807043, 2807043, 1707043 }
-ItemIDsDatabaseCorrectedIDs[1523064] = { nil, nil, nil, 1823064, 2823064, 1723064 }
-
-ItemIDsDatabaseCorrectedIDs[16900] = { nil, nil, nil, 316921, 1316921, 216921 }
-
---T2 helms
-ItemIDsDatabaseCorrectedIDs[16939] = { nil, nil, nil, 316939, 1316939, 216939 }
-ItemIDsDatabaseCorrectedIDs[16914] = { nil, nil, nil, 316914, 1316914, 216914 }
-ItemIDsDatabaseCorrectedIDs[16955] = { nil, nil, nil, 316955, 1316955, 216955 }
-ItemIDsDatabaseCorrectedIDs[16921] = { nil, nil, nil, 316921, 1316921, 216921 }
-ItemIDsDatabaseCorrectedIDs[16908] = { nil, nil, nil, 316908, 1316908, 216908 }
-ItemIDsDatabaseCorrectedIDs[16947] = { nil, nil, nil, 316947, 1316947, 216947 }
-ItemIDsDatabaseCorrectedIDs[10962] = { nil, nil, nil, 310962, 1310962, 210962 }
-ItemIDsDatabaseCorrectedIDs[16929] = { nil, nil, nil, 316929, 1316929, 216929 }
-ItemIDsDatabaseCorrectedIDs[10904] = { nil, nil, nil, 310904, 1310904, 210904 }
-ItemIDsDatabaseCorrectedIDs[16963] = { nil, nil, nil, 316963, 1316963, 216963 }
-ItemIDsDatabaseCorrectedIDs[1516955] = { nil, nil, nil, 1816955, 2816955, 1716955 }
-ItemIDsDatabaseCorrectedIDs[1516921] = { nil, nil, nil, 1816921, 2816921, 1716921 }
-ItemIDsDatabaseCorrectedIDs[1516947] = { nil, nil, nil, 1816947, 2816947, 1716947 }
-ItemIDsDatabaseCorrectedIDs[1516963] = { nil, nil, nil, 1816963, 2816963, 1716963 }
-ItemIDsDatabaseCorrectedIDs[1516900] = { nil, nil, nil, 1816900, 2816900, 1716900 }
-ItemIDsDatabaseCorrectedIDs[1516892] = { nil, nil, nil, 1816892, 2816892, 1716892 }
-
-
 --ZA Bears
 ItemIDsDatabaseCorrectedIDs[1333809] = { nil, nil, nil, 1433809, nil, 1233809 }
 
