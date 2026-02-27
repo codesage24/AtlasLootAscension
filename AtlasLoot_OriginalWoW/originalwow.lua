@@ -3362,7 +3362,6 @@ AtlasLoot_Data["RoadToDeOtherSide"] = {
 	Module = "AtlasLoot_OriginalWoW",
 	Name = "Road to De Other Side",
 	Type = "ClassicDungeonExt",
-	Map = "RoadToDeOtherSide",
 	{
 		Name = "Muzah, the Shadow Hunter",
 		{
