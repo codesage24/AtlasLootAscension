@@ -27,6 +27,7 @@ local gap = {"gap"}
 ---- Ragefire Chasm
 ---- Razorfen Downs
 ---- Razorfen Kraul
+---- Road To De Other Side
 ---- Scarlet Monastery
 ---- Scholomance
 ---- Shadowfang Keep
@@ -35,6 +36,7 @@ local gap = {"gap"}
 ---- The Stockade
 ---- The Sunken Temple
 ---- Uldaman
+---- Vaults Of Inquisition
 ---- Wailing Caverns
 ---- Zul'Farrak
 ---- Zul'Gurub
@@ -2751,6 +2753,7 @@ AtlasLoot_Data["DireMaulWest"] = {
 		},
 	},
 }
+
 ------------------
 --- Gnomeregan ---
 ------------------
@@ -2885,11 +2888,15 @@ AtlasLoot_Data["Gnomeregan"] = {
 	},
 }
 
+-----------------------
+--- Karazhan Crypts ---
+-----------------------
+
 AtlasLoot_Data["KarazhanCrypts"] = {
 	Module = "AtlasLoot_OriginalWoW",
 	Name = AL["The Karazhan Crypts"],
 	Type = "ClassicDungeonExt",
-	--Map = "Gnomeregan",
+	--Map = "Karazhan Crypts",
 	{
 		Name = AL["Cynfael"],
 		WebID = {254401,"npc"},
@@ -2984,7 +2991,6 @@ AtlasLoot_Data["KarazhanCrypts"] = {
 		},
 	},
 }
-
 
 ----------------
 --- Maraudon ---
@@ -3094,9 +3100,11 @@ AtlasLoot_Data["Maraudon"] = {
 		},
 	},
 }
+
 ----------------------
 --- Ragefire Chasm ---
 ----------------------
+
 AtlasLoot_Data["RagefireChasm"] = {
 	Module = "AtlasLoot_OriginalWoW",
 	Name = BabbleZone["Ragefire Chasm"],
@@ -3345,6 +3353,60 @@ AtlasLoot_Data["RazorfenKraul"] = {
 		},
 	},
 }
+
+-----------------------------
+--- Road to De Other Side ---
+-----------------------------
+
+AtlasLoot_Data["RoadToDeOtherSide"] = {
+	Module = "AtlasLoot_OriginalWoW",
+	Name = "Road to De Other Side",
+	Type = "ClassicDungeonExt",
+	Map = "RoadToDeOtherSide",
+	{
+		Name = "Muzah, the Shadow Hunter",
+		{
+			{ itemID = 559356 }, --Emblem of the Spider Goddess
+			{ itemID = 559353 }, --Glaive of the Bat God
+			{ itemID = 559354 }, --Glaive of the Bat God
+			gap,
+			{ itemID = 559314 }, --Bindings of the Broken Promise
+			{ itemID = 559344 }, --Cloak of the Other Side
+			{ itemID = 559321 }, --Greaves of the Funeral Judgement
+			{ itemID = 559302 }, --Hollow Glow Robe
+			{ itemID = 559362 }, --Offered Flame Necklace
+			{ itemID = 559334 }, --Ring of Tribal Whispers
+			{ itemID = 559329 }, --Sabatons of the Lost Dominion
+			{ itemID = 559306 }, --Wristwraps of the Faithful Servant
+		}
+	},
+	{
+		Name = "Drak'math the Sinister King",
+		{
+			{ itemID = 559355 }, --Edict of the Sinister King
+			gap,
+			{ itemID = 559308 }, --Hood of Remorse
+		}
+	},
+	{
+		Name = "Chimeric Embryo",
+		{
+			{ itemID = 559365 }, --Cutter of the Spawn
+			{ itemID = 559357 }, --Fang of the Chimeric Embryo
+			gap,
+			{ itemID = 559333 }, --Band of the Three Voices
+			{ itemID = 559313 }, --Boots of the Rotting Throne
+			{ itemID = 559340 }, --Chain of Silent Hunger
+			{ itemID = 559331 }, --Devourer's Gauntlets
+			{ itemID = 559325 }, --Hollow Ore Pauldrons
+			{ itemID = 559301 }, --Mantle of Caged Light
+			{ itemID = 559343 }, --Mutated Heart Cloak
+			{ itemID = 559330 }, --Vambraces of Innate Hunger
+			{ itemID = 559318 }, --Vest of the Broken Horizon
+		}
+	}
+}
+
 -------------------------
 --- Scarlet Monastery ---
 -------------------------
@@ -3561,6 +3623,7 @@ AtlasLoot_Data["Scarlet Monastery"] = {
 		},
 	},
 }
+
 -------------------
 --- Scholomance ---
 -------------------
@@ -4063,6 +4126,7 @@ AtlasLoot_Data["Scholomance"] = {
 		},
 	},
 }
+
 -----------------------
 --- Shadowfang Keep ---
 -----------------------
@@ -4595,6 +4659,7 @@ AtlasLoot_Data["Stratholme"] = {
 		},
 	},
 }
+
 ---------------------
 --- The Deadmines ---
 ---------------------
@@ -5264,6 +5329,45 @@ AtlasLoot_Data["Uldaman"] = {
 			{ itemID = 9381 }, --Earthen Rod
 			{ itemID = 9426 }, --Monolithic Bow
 			{ itemID = 9422 }, --Shadowforge Bushmaster
+		},
+	},
+}
+
+-----------------------------
+--- Vaults Of Inquisition ---
+-----------------------------
+
+AtlasLoot_Data["VaultsOfInquisition"] = {
+	Module = "AtlasLoot_OriginalWoW",
+	Name = "Vaults of Inquisition",
+	Type = "ClassicDungeonExt",
+	{
+		Name = "Merciless Echo",
+		{
+			{ itemID = 559349 }, --Mace of the Dauntless Jailer
+			gap,
+			{ itemID = 559346 }, --Cloak of the Last Confessor
+			{ itemID = 559311 }, --Dark Veil Girdle
+			{ itemID = 559361 }, --Forgotten Sin Ring
+			{ itemID = 559320 }, --Legguards of Spiritual Hunger
+			{ itemID = 559301 }, --Mantle of Caged Light
+			{ itemID = 559339 }, --Pendant of Shattered Prayers
+			{ itemID = 559319 }, --Slumbering Voice Belt
+			{ itemID = 559306 }, --Wristwraps of the Faithful Servant
+		},
+	},
+	{
+		Name = "His Majesty Darkandle",
+		{
+			{ itemID = 559351 }, --Excascepter of King Darkveil
+			gap,
+			{ itemID = 559328 }, --Consumes Spirit Legplates
+		},
+	},
+	{
+		Name = "The Deceiver's Presence",
+		{
+			{ itemID = 559324 }, --Helm of Divine Silence
 		},
 	},
 }
@@ -6416,7 +6520,7 @@ AtlasLoot_Data["Naxxramas60"] = {
 }
 
 ---------------------
---- Onyxia's Lair 60 ---
+--- Onyxia's Lair ---
 ---------------------
 
 AtlasLoot_Data["Onyxia60"] = {
@@ -6486,6 +6590,10 @@ AtlasLoot_Data["Onyxia60"] = {
 		},
 	},
 }
+
+--------------------
+--- Frozen Reach ---
+--------------------
 
 AtlasLoot_Data["FrozenReach"] = {
 	Module = "AtlasLoot_OriginalWoW",
@@ -6669,7 +6777,6 @@ AtlasLoot_Data["SharedDungeonLoot"] = {
 			{ itemID = 2431230 }, --Abyss Walker's Boots
 		},
 	}
-
 }
 
 --------------------------
