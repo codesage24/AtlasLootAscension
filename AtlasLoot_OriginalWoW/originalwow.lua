@@ -5361,12 +5361,15 @@ AtlasLoot_Data["VaultsOfInquisition"] = {
 			{ itemID = 559351 }, --Excascepter of King Darkveil
 			gap,
 			{ itemID = 559328 }, --Consumes Spirit Legplates
+			{ itemID = 559315 }, --Gloves of the Nocturnal Breath
 		},
 	},
 	{
 		Name = "The Deceiver's Presence",
 		{
+			{ itemID = 278211 }, --Ancient Sandals
 			{ itemID = 559324 }, --Helm of Divine Silence
+			{ itemID = 559305 }, --Sandals Stained with Ancient Blood
 		},
 	},
 }
