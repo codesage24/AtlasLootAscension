@@ -1829,15 +1829,17 @@ AtlasLoot_Data["MoltenCore"] = {
 	{
 		Name = BabbleBoss["Lucifron"],
 		{
-			{ itemID = 17072, groupID = 1, refLootEntry = 12056 }, --Blastershot Launcher
 			{ itemID = 18829, groupID = 1, refLootEntry = 12056 }, --Deep Earth Spaulders
 			{ itemID = 18824, groupID = 1, refLootEntry = 12056 }, --Magma Tempered Boots
 			{ itemID = 19136, groupID = 1, refLootEntry = 12056 }, --Mana Igniting Cord
 			{ itemID = 18872, groupID = 1, refLootEntry = 12056 }, --Manastorm Leggings
-			{ itemID = 18822, groupID = 1, refLootEntry = 12056 }, --Obsidian Edged Blade
 			{ itemID = 17110, groupID = 1, refLootEntry = 12056 }, --Seal of the Archmagus
-			{ itemID = 18842, groupID = 1, refLootEntry = 12056 }, --Staff of Dominance
 			{ itemID = 19146, groupID = 1, refLootEntry = 12056 }, --Wristguards of Stability
+			{ itemID = 10470, groupID = 1, refLootEntry = 12056 }, --Eternal Flame Artifact
+			gap,
+			{ itemID = 17072, groupID = 1, refLootEntry = 12056 }, --Blastershot Launcher
+			{ itemID = 18822, groupID = 1, refLootEntry = 12056 }, --Obsidian Edged Blade
+			{ itemID = 18842, groupID = 1, refLootEntry = 12056 }, --Staff of Dominance
 		},
 		{
 			{ itemID = 2522362, lootTable = {"T1WRIST","Token"} }, --Molten Wristguards
@@ -1847,13 +1849,14 @@ AtlasLoot_Data["MoltenCore"] = {
 	{
 		Name = BabbleBoss["Magmadar"],
 		{
-			{ itemID = 18823, groupID = 1, refLootEntry = 11982 }, --Aged Core Leather Gloves
 			{ itemID = 17105, groupID = 1, refLootEntry = 11982 }, --Aurastone Hammer
-			{ itemID = 12573, groupID = 1, refLootEntry = 11982 }, --Corebound Shoulders
 			{ itemID = 17066, groupID = 1, refLootEntry = 11982 }, --Drillborer Disk
 			{ itemID = 17073, groupID = 1, refLootEntry = 11982 }, --Earthshaker
 			{ itemID = 18203, groupID = 1, refLootEntry = 11982 }, --Eskhandar's Right Claw
 			{ itemID = 17071, groupID = 1, refLootEntry = 11982 }, --Gutgore Ripper
+			gap,
+			{ itemID = 18823, groupID = 1, refLootEntry = 11982 }, --Aged Core Leather Gloves
+			{ itemID = 12573, groupID = 1, refLootEntry = 11982 }, --Corebound Shoulders
 			{ itemID = 18879, groupID = 1, refLootEntry = 11982 }, --Heavy Dark Iron Ring
 			{ itemID = 18870, groupID = 1, refLootEntry = 11982 }, --Helm of the Lifegiver
 			{ itemID = 17065, groupID = 1, refLootEntry = 11982 }, --Medallion of Steadfast Might
@@ -1868,12 +1871,14 @@ AtlasLoot_Data["MoltenCore"] = {
 			{ itemID = 18832, groupID = 1, refLootEntry = 12259 }, --Brutality Blade
 			{ itemID = 17077, groupID = 1, refLootEntry = 12259 }, --Crimson Shocker
 			{ itemID = 19142, groupID = 1, refLootEntry = 12259 }, --Fire Runed Grimoire
+			{ itemID = 18878, groupID = 1, refLootEntry = 12259 }, --Sorcerous Dagger
+			gap,
 			{ itemID = 19143, groupID = 1, refLootEntry = 12259 }, --Flameguard Gauntlets
 			{ itemID = 18861, groupID = 1, refLootEntry = 12259 }, --Flamewaker Legplates
 			{ itemID = 12594, groupID = 1, refLootEntry = 12259 }, --Flamewalker Shoulderguards
 			{ itemID = 18821, groupID = 1, refLootEntry = 12259 }, --Quick Strike Ring
 			{ itemID = 19144, groupID = 1, refLootEntry = 12259 }, --Sabatons of the Flamewalker
-			{ itemID = 18878, groupID = 1, refLootEntry = 12259 }, --Sorcerous Dagger
+			{ itemID = 10470, groupID = 1, refLootEntry = 12056 }, --Eternal Flame Artifact
 		},
 		{
 			{ itemID = 2522364, lootTable = {"T1HAND","Token"} }, --Molten Girdle
@@ -1884,12 +1889,13 @@ AtlasLoot_Data["MoltenCore"] = {
 	{
 		Name = BabbleBoss["Garr"],
 		{
-			{ itemID = 18823, groupID = 1, refLootEntry = 12057 }, --Aged Core Leather Gloves
 			{ itemID = 17105, groupID = 1, refLootEntry = 12057 }, --Aurastone Hammer
 			{ itemID = 17066, groupID = 1, refLootEntry = 12057 }, --Drillborer Disk
 			{ itemID = 17073, groupID = 1, refLootEntry = 12057 }, --Earthshaker
 			{ itemID = 18203, groupID = 1, refLootEntry = 12057 }, --Eskhandar's Right Claw
 			{ itemID = 17071, groupID = 1, refLootEntry = 12057 }, --Gutgore Ripper
+			gap,
+			{ itemID = 18823, groupID = 1, refLootEntry = 12057 }, --Aged Core Leather Gloves
 			{ itemID = 18879, groupID = 1, refLootEntry = 12057 }, --Heavy Dark Iron Ring
 			{ itemID = 18870, groupID = 1, refLootEntry = 12057 }, --Helm of the Lifegiver
 			{ itemID = 17065, groupID = 1, refLootEntry = 12057 }, --Medallion of Steadfast Mighty
@@ -1908,15 +1914,17 @@ AtlasLoot_Data["MoltenCore"] = {
 		Name = BabbleBoss["Shazzrah"],
 		{
 			{ itemID = 17103, groupID = 1, refLootEntry = 12264 }, --Azuresong Mageblade
+			{ itemID = 17074, groupID = 1, refLootEntry = 12264 }, --Shadowstrike
+			{ itemID = 17069, groupID = 1, refLootEntry = 12264 }, --Striker's Mark
+			gap,
 			{ itemID = 17109, groupID = 1, refLootEntry = 12264 }, --Choker of Enlightenment
 			{ itemID = 12597, groupID = 1, refLootEntry = 12264 }, --Embercloth Robe
 			{ itemID = 12909, groupID = 1, refLootEntry = 12264 }, --Embercloth Wraps
 			{ itemID = 19147, groupID = 1, refLootEntry = 12264 }, --Ring of Spell Power
 			{ itemID = 19145, groupID = 1, refLootEntry = 12264 }, --Robe of Volatile Power
 			{ itemID = 18875, groupID = 1, refLootEntry = 12264 }, --Salamander Scale Pants
-			{ itemID = 17074, groupID = 1, refLootEntry = 12264 }, --Shadowstrike
-			{ itemID = 17069, groupID = 1, refLootEntry = 12264 }, --Striker's Mark
 			{ itemID = 18820, groupID = 1, refLootEntry = 12264 }, --Talisman of Ephemeral Power
+			{ itemID = 10470, groupID = 1, refLootEntry = 12056 }, --Eternal Flame Artifact
 		},
 		{
 			{ itemID = 2522363, lootTable = {"T1WAIST","Token"} }, --Molten Handgaurds
@@ -1928,13 +1936,14 @@ AtlasLoot_Data["MoltenCore"] = {
 		Name = BabbleBoss["Baron Geddon"],
 		{
 			{ itemID = 17072, groupID = 1, refLootEntry = 12056 }, --Blastershot Launcher
+			{ itemID = 18822, groupID = 1, refLootEntry = 12056 }, --Obsidian Edged Blade
+			{ itemID = 18842, groupID = 1, refLootEntry = 12056 }, --Staff of Dominance
+			gap,
 			{ itemID = 18829, groupID = 1, refLootEntry = 12056 }, --Deep Earth Spaulders
 			{ itemID = 18824, groupID = 1, refLootEntry = 12056 }, --Magma Tempered Boots
 			{ itemID = 19136, groupID = 1, refLootEntry = 12056 }, --Mana Igniting Cord
 			{ itemID = 18872, groupID = 1, refLootEntry = 12056 }, --Manastorm Leggings
-			{ itemID = 18822, groupID = 1, refLootEntry = 12056 }, --Obsidian Edged Blade
 			{ itemID = 17110, groupID = 1, refLootEntry = 12056 }, --Seal of the Archmagus
-			{ itemID = 18842, groupID = 1, refLootEntry = 12056 }, --Staff of Dominance
 			{ itemID = 19146, groupID = 1, refLootEntry = 12056 }, --Wristguards of Stability
 		},
 		{
@@ -1948,14 +1957,15 @@ AtlasLoot_Data["MoltenCore"] = {
 		Name = BabbleBoss["Golemagg the Incinerator"],
 		{
 			{ itemID = 17072, groupID = 1, refLootEntry = 11988 }, --Blastershot Launcher
+			{ itemID = 18822, groupID = 1, refLootEntry = 11988 }, --Obsidian Edged Blade
+			{ itemID = 18842, groupID = 1, refLootEntry = 11988 }, --Staff of Dominance
+			gap,
 			{ itemID = 18829, groupID = 1, refLootEntry = 11988 }, --Deep Earth Spaulders
 			{ itemID = 12908, groupID = 1, refLootEntry = 11988 }, --Magma Forged Walkers
 			{ itemID = 18824, groupID = 1, refLootEntry = 11988 }, --Magma Tempered Boots
 			{ itemID = 19136, groupID = 1, refLootEntry = 11988 }, --Mana Igniting Cord
 			{ itemID = 18872, groupID = 1, refLootEntry = 11988 }, --Manastorm Leggings
-			{ itemID = 18822, groupID = 1, refLootEntry = 11988 }, --Obsidian Edged Blade
 			{ itemID = 17110, groupID = 1, refLootEntry = 11988 }, --Seal of the Archmagus
-			{ itemID = 18842, groupID = 1, refLootEntry = 11988 }, --Staff of Dominance
 			{ itemID = 19146, groupID = 1, refLootEntry = 11988 }, --Wristguards of Stability
 		},
 		{
@@ -1969,15 +1979,17 @@ AtlasLoot_Data["MoltenCore"] = {
 		Name = BabbleBoss["Sulfuron Harbinger"],
 		{
 			{ itemID = 17103, groupID = 1, refLootEntry = 12098 }, --Azuresong Mageblade
+			{ itemID = 17074, groupID = 1, refLootEntry = 12098 }, --Shadowstrike
+			{ itemID = 17069, groupID = 1, refLootEntry = 12098 }, --Striker's Mark
+			gap,
 			{ itemID = 12872, groupID = 1, refLootEntry = 12098 }, --Blazing Slippers
 			{ itemID = 17109, groupID = 1, refLootEntry = 12098 }, --Choker of Enlightenment
 			{ itemID = 12595, groupID = 1, refLootEntry = 12098 }, --Flamebound Harness
 			{ itemID = 19147, groupID = 1, refLootEntry = 12098 }, --Ring of Spell Power
 			{ itemID = 19145, groupID = 1, refLootEntry = 12098 }, --Robe of Volatile Power
 			{ itemID = 18875, groupID = 1, refLootEntry = 12098 }, --Salamander Scale Pants
-			{ itemID = 17074, groupID = 1, refLootEntry = 12098 }, --Shadowstrike
-			{ itemID = 17069, groupID = 1, refLootEntry = 12098 }, --Striker's Mark
 			{ itemID = 18820, groupID = 1, refLootEntry = 12098 }, --Talisman of Ephemeral Power
+			{ itemID = 10470, groupID = 1, refLootEntry = 12056 }, --Eternal Flame Artifact
 		},
 		{
 			{ itemID = 2522365, lootTable = {"T1FEET","Token"} }, --Molten Boots
@@ -1988,25 +2000,32 @@ AtlasLoot_Data["MoltenCore"] = {
 	{
 		Name = BabbleBoss["Majordomo Executus"],
 		{
-			{ itemID = 18806, groupID = 1, refLootEntry = 12018 }, --Core Forged Greaves
 			{ itemID = 18805, groupID = 1, refLootEntry = 12018 }, --Core Hound Tooth
 			{ itemID = 18803, groupID = 1, refLootEntry = 12018 }, --Finkle's Lava Dredger
-			{ itemID = 19139, groupID = 1, refLootEntry = 12018 }, --Fireguard Shoulders
 			{ itemID = 18715, groupID = 1, refLootEntry = 12018 }, --Lok'delar, Stave of the Ancient Keepers
 			{ itemID = 18713, groupID = 1, refLootEntry = 12018 }, --Rhok'delar, Longbow of the Ancient Keepers
-			{ itemID = 18812, groupID = 1, refLootEntry = 12018 }, --Wristguards of True Flight
 			{ itemID = 18609, groupID = 2, refLootEntry = 12018 }, --Anathema
 			{ itemID = 18608, groupID = 2, refLootEntry = 12018 }, --Benediction
+			gap,
+			{ itemID = 18806, groupID = 1, refLootEntry = 12018 }, --Core Forged Greaves
+			{ itemID = 19139, groupID = 1, refLootEntry = 12018 }, --Fireguard Shoulders
+			{ itemID = 18812, groupID = 1, refLootEntry = 12018 }, --Wristguards of True Flight
 			{ itemID = 19140, groupID = 2, refLootEntry = 12018 }, --Cauterizing Band
 			{ itemID = 18811, groupID = 2, refLootEntry = 12018 }, --Fireproof Cloak
 			{ itemID = 18808, groupID = 2, refLootEntry = 12018 }, --Gloves of the Hypnotic Flame
 			{ itemID = 18809, groupID = 2, refLootEntry = 12018 }, --Sash of Whispered Secrets
 			{ itemID = 18810, groupID = 2, refLootEntry = 12018 }, --Wild Growth Spaulders
+			{ itemID = 10470, groupID = 1, refLootEntry = 12056 }, --Eternal Flame Artifact
 		},
 	},
 	{
 		Name = BabbleBoss["Ragnaros"],
 		{
+			{ itemID = 17083, groupID = 2, refLootEntry = 11502 }, --Blade of Dragon Bone
+			{ itemID = 17076, groupID = 2, refLootEntry = 11502 }, --Bonereaver's Edge
+			{ itemID = 18816, groupID = 2, refLootEntry = 11502 }, --Perdition's Blade
+			{ itemID = 17104, groupID = 2, refLootEntry = 11502 }, --Spinal Reaper
+			gap,
 			{ itemID = 17063, groupID = 1, refLootEntry = 11502 }, --Band of Accuria
 			{ itemID = 19138, groupID = 1, refLootEntry = 11502 }, --Band of Sulfuras
 			{ itemID = 18814, groupID = 1, refLootEntry = 11502 }, --Choker of the Fire Lord
@@ -2015,13 +2034,9 @@ AtlasLoot_Data["MoltenCore"] = {
 			{ itemID = 17107, groupID = 1, refLootEntry = 11502 }, --Dragon's Blood Cape
 			{ itemID = 19137, groupID = 1, refLootEntry = 11502 }, --Onslaught Girdle
 			{ itemID = 12572, groupID = 1, refLootEntry = 11502 }, --Veil of Flame Worshipper
-			{ itemID = 17083, groupID = 2, refLootEntry = 11502 }, --Blade of Dragon Bone
-			{ itemID = 17076, groupID = 2, refLootEntry = 11502 }, --Bonereaver's Edge
 			{ itemID = 18815, groupID = 2, refLootEntry = 11502 }, --Essence of the Pure Flame
 			{ itemID = 17106, groupID = 2, refLootEntry = 11502 }, --Malistar's Defender
-			{ itemID = 18816, groupID = 2, refLootEntry = 11502 }, --Perdition's Blade
 			{ itemID = 17082, groupID = 2, refLootEntry = 11502 }, --Shard of the Flame
-			{ itemID = 17104, groupID = 2, refLootEntry = 11502 }, --Spinal Reaper
 		},
 		{
 			{ itemID = 2522459, lootTable = {"T2LEGS","Token"} }, --Chromatic Leggaurds
